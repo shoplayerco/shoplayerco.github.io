@@ -3,28 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Layer & Co. creates custom 3D-printed models, gifts, and display pieces in San Diego, California." />
-  <meta name="theme-color" content="#f5efe7" />
-  <title>Layer & Co. | Custom 3D Prints in San Diego</title>
+  <meta name="description" content="Layer & Co. creates custom 3D-printed models, gifts, accessories, and event projects in San Diego, California." />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Layer & Co. | Custom 3D Printing in San Diego</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="#home" aria-label="Layer and Company home">
-      <span class="brand-mark" aria-hidden="true">
-        <span></span><span></span><span></span>
-      </span>
-      <span>Layer &amp; Co.</span>
+      <img src="logo.png" alt="Layer and Company" />
     </a>
-
-    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
-      <span class="sr-only">Open navigation</span>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
       <span></span><span></span><span></span>
     </button>
-
     <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
       <a href="#work">Our Work</a>
       <a href="#about">About</a>
@@ -38,86 +32,105 @@
       <div class="hero-copy">
         <p class="eyebrow">San Diego, California</p>
         <h1>Made layer by layer.</h1>
-        <p class="hero-text">
-          Custom 3D-printed models, gifts, and display pieces made with care
-          for collectors, families, and anyone who loves something unique.
-        </p>
+        <p class="hero-text">Custom 3D-printed models, personalized gifts, functional accessories, and creative projects made with care.</p>
         <div class="hero-actions">
           <a class="button primary" href="#custom">Request a custom print</a>
-          <a class="button secondary" href="https://www.instagram.com/shoplayerco/" target="_blank" rel="noopener noreferrer">See us on Instagram</a>
+          <a class="button secondary" href="https://www.instagram.com/shoplayerco/" target="_blank" rel="noopener noreferrer">Visit Instagram</a>
         </div>
-        <div class="hero-details" aria-label="Business highlights">
+        <div class="hero-points">
           <span>Locally made</span>
-          <span>Custom requests welcome</span>
           <span>Small-batch printing</span>
+          <span>Custom requests welcome</span>
         </div>
       </div>
-
-      <div class="hero-visual">
-        <img src="assets/featured-front.jpg" alt="White 3D-printed character-inspired display model photographed against a black background" />
-        <div class="floating-card">
-          <strong>Layer &amp; Co.</strong>
-          <span>Custom prints made in San Diego</span>
-        </div>
+      <div class="hero-art" aria-hidden="true">
+        <img src="chicorita1.png" alt="" />
+        <span class="orb orb-one"></span>
+        <span class="orb orb-two"></span>
       </div>
     </section>
 
     <section id="work" class="section">
       <div class="section-heading">
-        <p class="eyebrow">Featured work</p>
-        <h2>Thoughtfully printed. Carefully finished.</h2>
-        <p>
-          Every piece is checked for quality before it leaves our studio.
-          Browse our work on Instagram or reach out with an idea of your own.
-        </p>
+        <p class="eyebrow">Featured projects</p>
+        <h2>From one-of-a-kind figures to useful everyday prints.</h2>
+        <p>Every project is carefully printed, inspected, and finished before it leaves our studio.</p>
       </div>
 
-      <div class="gallery">
-        <figure class="gallery-card gallery-card-large">
-          <img src="assets/featured-angle.jpg" alt="Side angle of a white 3D-printed character-inspired model" loading="lazy" />
-          <figcaption>
-            <span>Character-inspired display piece</span>
-            <small>Clean detail and smooth finishing</small>
-          </figcaption>
-        </figure>
-
-        <figure class="gallery-card">
-          <img src="assets/featured-front.jpg" alt="Front view of a white 3D-printed character-inspired model" loading="lazy" />
-          <figcaption>
-            <span>Custom models</span>
-            <small>Made for desks, shelves, and gifts</small>
-          </figcaption>
-        </figure>
-
-        <div class="gallery-card text-card">
-          <div>
-            <p class="eyebrow">Your idea, made real</p>
-            <h3>Looking for something specific?</h3>
-            <p>
-              Send us a photo, description, or model link and we’ll let you know
-              what’s possible.
-            </p>
+      <div class="project-grid">
+        <article class="project-card dark-card project-tall">
+          <img src="phil.png" alt="Custom 3D-printed figure created from a customer photo" loading="lazy" />
+          <div class="project-copy">
+            <p class="project-label">Custom figures</p>
+            <h3>Turn a photo into a collectible.</h3>
+            <p>Personalized character models designed as memorable gifts and display pieces.</p>
           </div>
-          <a href="mailto:shoplayerco@gmail.com?subject=Custom%203D%20Print%20Request">Start a request →</a>
-        </div>
+        </article>
+
+        <article class="project-card light-card">
+          <img src="ornament.png" alt="Multicolor personalized snowman ornament" loading="lazy" />
+          <div class="project-copy">
+            <p class="project-label">Personalized gifts</p>
+            <h3>Colorful keepsakes made for the moment.</h3>
+          </div>
+        </article>
+
+        <article class="project-card dark-card">
+          <img src="chicorita2.jpg" alt="Large green character-inspired planter photographed on a dark background" loading="lazy" />
+          <div class="project-copy">
+            <p class="project-label">Home & decor</p>
+            <h3>Playful statement pieces.</h3>
+          </div>
+        </article>
+
+        <article class="project-card light-card project-wide">
+          <img src="vader.jpg" alt="Large buildable character-inspired model arranged in printed parts" loading="lazy" />
+          <div class="project-copy">
+            <p class="project-label">Large-format projects</p>
+            <h3>Big builds, printed one piece at a time.</h3>
+            <p>Complex projects can be printed in sections and assembled into something much larger.</p>
+          </div>
+        </article>
+
+        <article class="project-card light-card">
+          <img src="puffco.jpg" alt="Group of small black and white 3D-printed keychain accessories" loading="lazy" />
+          <div class="project-copy">
+            <p class="project-label">Accessories</p>
+            <h3>Small prints with practical uses.</h3>
+          </div>
+        </article>
+
+        <article class="project-card light-card">
+          <img src="paintparty.jpg" alt="Paint-your-own 3D-printed horse figures at a community event" loading="lazy" />
+          <div class="project-copy">
+            <p class="project-label">Events & activities</p>
+            <h3>Print-and-paint fun for groups.</h3>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="about" class="section split-section">
+    <section class="section video-section">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">See it in action</p>
+        <h2>Functional prints are better in motion.</h2>
+      </div>
+      <div class="video-frame">
+        <video controls muted playsinline preload="metadata" poster="puffco.jpg">
+          <source src="DK Lighter sleeve.mp4" type="video/mp4" />
+          Your browser does not support embedded video.
+        </video>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
       <div>
-        <p class="eyebrow">About Layer &amp; Co.</p>
+        <p class="eyebrow">About Layer & Co.</p>
         <h2>A local print studio with a personal touch.</h2>
       </div>
       <div class="about-copy">
-        <p>
-          Layer &amp; Co. is a San Diego-based 3D-printing studio creating
-          character-inspired models, gifts, collectibles, and custom pieces.
-          We focus on clean prints, dependable quality, and friendly service.
-        </p>
-        <p>
-          Whether you already have a design in mind or just an idea, we’ll help
-          turn it into something you can hold.
-        </p>
+        <p>Layer & Co. is a San Diego-based 3D-printing studio creating custom models, gifts, accessories, decor, and event projects.</p>
+        <p>Have an idea, a reference photo, or a model file? Send it over and we’ll help determine what is possible, how large it should be, and what colors will work best.</p>
       </div>
     </section>
 
@@ -126,36 +139,24 @@
         <div>
           <p class="eyebrow">Custom orders</p>
           <h2>Let’s make something memorable.</h2>
-          <p>
-            Tell us what you’re looking for, the approximate size, preferred
-            colors, and when you need it. We’ll reply with availability and an
-            estimate.
-          </p>
+          <p>Include your idea, approximate size, preferred colors, and deadline. We’ll reply with availability and an estimate.</p>
         </div>
         <div class="custom-actions">
-          <a class="button primary" href="mailto:shoplayerco@gmail.com?subject=Custom%203D%20Print%20Request&body=Hi%20Layer%20%26%20Co.%2C%0A%0AI%27m%20interested%20in%20a%20custom%203D%20print.%0A%0AIdea%20or%20model%3A%0ASize%3A%0AColors%3A%0ADeadline%3A%0A%0AThank%20you!">Email your idea</a>
-          <a class="button secondary" href="https://www.instagram.com/shoplayerco/" target="_blank" rel="noopener noreferrer">DM @shoplayerco</a>
+          <a class="button primary light-button" href="mailto:shoplayerco@gmail.com?subject=Custom%203D%20Print%20Request&body=Hi%20Layer%20%26%20Co.%2C%0A%0AI%27m%20interested%20in%20a%20custom%203D%20print.%0A%0AIdea%20or%20model%3A%0ASize%3A%0AColors%3A%0ADeadline%3A%0A%0AThank%20you!">Email your idea</a>
+          <a class="button secondary dark-outline" href="https://www.instagram.com/shoplayerco/" target="_blank" rel="noopener noreferrer">DM @shoplayerco</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div>
-      <a class="brand footer-brand" href="#home">
-        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
-        <span>Layer &amp; Co.</span>
-      </a>
-      <p>Made layer by layer in San Diego, CA.</p>
-    </div>
-
+    <img class="footer-logo" src="logo.png" alt="Layer and Company" />
+    <p>Made layer by layer in San Diego, CA.</p>
     <div class="footer-links">
       <a href="https://www.instagram.com/shoplayerco/" target="_blank" rel="noopener noreferrer">Instagram</a>
       <a href="mailto:shoplayerco@gmail.com">Email</a>
     </div>
-
-    <p class="copyright">© <span id="year"></span> Layer &amp; Co. All rights reserved.</p>
-    <p class="fine-print">Character rights and trademarks remain with their respective owners.</p>
+    <p class="fine-print">© <span id="year"></span> Layer & Co. Character rights and trademarks remain with their respective owners.</p>
   </footer>
 
   <script src="script.js"></script>
