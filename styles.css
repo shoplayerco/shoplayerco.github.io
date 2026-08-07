@@ -163,6 +163,8 @@ p{color:var(--muted)}
 .gallery-image.contain{padding:28px}
 .gallery-image.contain img{object-fit:contain}
 .gallery-image.phil{padding:38px}
+.gallery-image.taekwondo{background:#e8eaec}
+.gallery-image.taekwondo img{object-fit:cover;object-position:center}
 .gallery-card:hover .gallery-image:not(.contain) img{transform:scale(1.025)}
 .gallery-copy{
   padding:clamp(36px,6vw,72px);
